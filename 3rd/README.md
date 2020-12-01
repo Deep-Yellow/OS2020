@@ -6,7 +6,7 @@
 
 #### 对任务流程的理解
 
-![image-20201127205835276](https://os-pichost.oss-cn-beijing.aliyuncs.com/OSimg1.png?Expires=1606824975&OSSAccessKeyId=TMP.3KdW7t74aCgSw3G8Mw8u8wPVBQtX2GsMdc7ic9hkyxQEcKxrWPbK3faUWAyG65xqwMda7LVUy8LG81HdBtrLxDNtTB6abX&Signature=13lG5SE5Ep69QITJlHOyNBkRNS8%3D)
+![](https://os-pichost.oss-cn-beijing.aliyuncs.com/OSimg1.png?Expires=1606824975&OSSAccessKeyId=TMP.3KdW7t74aCgSw3G8Mw8u8wPVBQtX2GsMdc7ic9hkyxQEcKxrWPbK3faUWAyG65xqwMda7LVUy8LG81HdBtrLxDNtTB6abX&Signature=13lG5SE5Ep69QITJlHOyNBkRNS8%3D)
 
 1. task tty初始化tty 并调用tty_do_read
 2. tty_do_read很简单，他只是调用keyboard_read的一个代理（其实是原书中为了搞多窗口用来识别现在的输入对应哪个窗口）
